@@ -10,3 +10,7 @@ name = "pypi"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+lint = "pipenv run flake8"
+test = "pipenv run python -m unittest discover tests"
