@@ -1,6 +1,6 @@
 import unittest
 
-from anonymize_ip import anonymize_ip
+from anonymizeip import anonymize_ip
 
 
 class TestIpv6(unittest.TestCase):
