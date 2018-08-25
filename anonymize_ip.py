@@ -1,7 +1,7 @@
 from ipaddress import ip_address
 
 
-def anonymize(
+def anonymize_ip(
     address,
     ipv4_mask="255.255.255.0",
     ipv6_mask="ffff:ffff:ffff:ffff:0000:0000:0000:0000"
