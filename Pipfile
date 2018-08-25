@@ -10,7 +10,7 @@ name = "pypi"
 twine = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.6"
 
 [scripts]
 lint = "pipenv run flake8"
